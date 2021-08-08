@@ -4,8 +4,7 @@ A Next.js app mimicking WhatsApp Web with Firebase and styled-components.
 
 ## Table of Contents
 
--   [Client Technologies](#client-technologies)
--   [Backend Technologies](#backend-technologies)
+-   [Technologies](#technologies)
 -   [Notes](#notes)
 -   [Scripts](#scripts)
 -   [Issues](#issues)
