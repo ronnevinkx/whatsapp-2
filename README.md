@@ -33,6 +33,15 @@ A Next.js app mimicking WhatsApp Web with Firebase and styled-components.
 -   email-validator
 -   react-loader-spinner
 
+**Code Quality**
+
+-   Husky
+-   ESLint
+-   Prettier
+-   lint-staged
+-   Commitlint
+-   standard-version
+
 ## Notes
 
 Based on [this](https://www.youtube.com/watch?v=svlEVg0To_c) Sonny Sangha tutorial, with the following adjustments:
@@ -51,12 +60,15 @@ Bootstrapped with create-next-app: `npx create-next-app --ts`
 
 ## Scripts
 
-| Description          | Command         | Value        |
-| -------------------- | --------------- | ------------ |
-| Start the dev server | `npm run dev`   | `next dev`   |
-| Build Next.js app    | `npm run build` | `next build` |
-| Start the server     | `npm run start` | `next start` |
-| Run ESLint           | `npm run lint`  | `next lint`  |
+| Description          | Command           | Value                     |
+| -------------------- | ----------------- | ------------------------- |
+| Start the dev server | `npm run dev`     | `next dev`                |
+| Build Next.js app    | `npm run build`   | `next build`              |
+| Start the server     | `npm run start`   | `next start`              |
+| Run ESLint           | `npm run lint`    | `next lint`               |
+| Run unit tests       | `npm run test`    | `echo \"Run some tests\"` |
+| Husky Prepare        | `npm run prepare` | `husky install`           |
+| Release new version  | `npm run release` | `standard-version`        |
 
 ## Resources
 
